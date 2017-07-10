@@ -1,14 +1,22 @@
+/*header*/
 header {
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
-    display: flex;
     border-bottom: solid 1px black;
-    justify-content: space-between;
+    background-color: white;
+    
+    display: flex;
     align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 30;
 }
 
-.container {
+.logocontainer {
     display: flex;
     align-items: center;
 }
@@ -28,4 +36,81 @@ a {
     color: black;
     margin: 10px;
     display: inline-block;
+}
+
+
+/*main*/
+.maincontainer {
+    display: flex;
+    border: solid black 1px;
+    position: relative;
+    top: 75px;
+    justify-content: space-between;
+}
+
+#large {
+    width: 630px;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+#medium {
+    width: 300px;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+#small {
+    width: 240px;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+#maintitle {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+    height: 200px;
+    
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+#maintitle1 {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+    height: 200px;
+    
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+#maintitle2 {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+    height: 200px;
+    
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+#maintitle3 {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+    height: 200px;
+    
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+
+.content {
+    border: solid black 1px;
+    
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
 }
