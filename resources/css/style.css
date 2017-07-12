@@ -51,9 +51,9 @@ a {
     font-family: Georgia;
     font-size: 17px;
     color: black;
-    border: solid black 1px;
     
     top: 75px;
+    margin-bottom: 100px;
     
     display: flex;
     justify-content: space-between;
@@ -64,18 +64,24 @@ a {
     font-weight: bold;
     font-size: 40px;
     color: white;
-    
-    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    max-height: 270px;
     
     display: flex;
 }
+
+.story {
+    width: 50%;
+    margin-right: 20px;
+}
+
 
 
 /*large*/
 
 #large {
     width: 630px;
-    border: solid black 1px;
     margin: 10px;
     top: 0px;
     
@@ -90,10 +96,16 @@ a {
 
 #maintitle1 {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+    
+    width: 50%;
+    margin-right: 20px;
 }
 
 #maintitle2 {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+    
+    width: 50%;
+    margin-right: 20px;
 }
 
 #contentcontainer {
@@ -116,7 +128,6 @@ a {
 
 #medium {
     width: 300px;
-    border: solid black 1px;
     margin: 10px;
     
     display: flex;
@@ -132,9 +143,65 @@ a {
 
 #small {
     width: 240px;
-    border: solid black 1px;
     margin: 10px;
     
     display: flex;
     flex-direction: column;
+}
+
+#nb {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#newsbites {
+    background-color: floralwhite;
+    font-family: Verdana;
+    font-size: 12px;
+    color: dimgray;
+    padding-left: 5px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#newsbites p {
+    border-bottom: solid black 1px;
+    padding: 5px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: mediumaquamarine;
+    height: 300px;
+    font-family: Verdana;
+    font-size: 12px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footeritems {
+    display: flex;
+    align-items: center;
+}
+
+footer h1 {
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    
+    padding-right: 20px;
+    border-right: solid white 3px;
+}
+
+footer nav {
+    padding: 20px;
+    
 }
