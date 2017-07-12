@@ -60,6 +60,19 @@ a {
     position: relative;
 }
 
+.maintitle {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    
+    margin: 10px;
+    
+    display: flex;
+}
+
+
+/*large*/
+
 #large {
     width: 630px;
     border: solid black 1px;
@@ -70,75 +83,17 @@ a {
     flex-direction: column;
 }
 
-#medium {
-    width: 300px;
-    border: solid black 1px;
-    margin: 10px;
-    
-    display: flex;
-    flex-direction: column;
-}
-
-#small {
-    width: 240px;
-    border: solid black 1px;
-    margin: 10px;
-    
-    display: flex;
-    flex-direction: column;
-}
-
-.maintitle {
-    font-weight: bold;
-    font-size: 40px;
-    color: white;
-    
-    display: flex;
-}
-
-.maintitle1 {
-    font-weight: bold;
-    font-size: 40px;
-    color: white;
-    
-    margin: 10px;
-    
-    display: flex;
-}
-
 #maintitle {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-    
-    display: flex;
 }
+
 
 #maintitle1 {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-    
-    display: flex;
 }
 
 #maintitle2 {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-    
-    display: flex;
-}
-
-#maintitle3 {
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-    
-    display: flex;
-}
-
-
-/*
-.content {
-    border: solid black 1px;
-}
-*/
-
-.title {
-    display: flex;
 }
 
 #contentcontainer {
@@ -156,11 +111,30 @@ a {
     display: flex;
 }
 
-.story {
+
+/*medium*/
+
+#medium {
+    width: 300px;
+    border: solid black 1px;
     margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
 }
 
-/*
-content, .maintitle {
-    margin: 20px;
-}*/
+#maintitle3 {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+
+/*small*/
+
+#small {
+    width: 240px;
+    border: solid black 1px;
+    margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
