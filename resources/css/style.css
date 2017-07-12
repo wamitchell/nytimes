@@ -48,8 +48,12 @@ a {
 /*main*/
 
 .maincontainer {
-    top: 75px;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
     border: solid black 1px;
+    
+    top: 75px;
     
     display: flex;
     justify-content: space-between;
@@ -60,69 +64,103 @@ a {
     width: 630px;
     border: solid black 1px;
     margin: 10px;
-    top: 0px
+    top: 0px;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 #medium {
     width: 300px;
     border: solid black 1px;
     margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 #small {
     width: 240px;
     border: solid black 1px;
     margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.maintitle {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    
+    display: flex;
+}
+
+.maintitle1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    
+    margin: 10px;
+    
+    display: flex;
 }
 
 #maintitle {
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
     
-    height: 200px;
+    display: flex;
 }
 
 #maintitle1 {
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
     
-    height: 200px;
+    display: flex;
 }
 
 #maintitle2 {
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
     
-    height: 200px;
+    display: flex;
 }
 
 #maintitle3 {
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-    
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
     
-    height: 200px;
+    display: flex;
 }
 
 
+/*
 .content {
-    font-family: Georgia;
-    font-size: 17px;
-    color: black;
-    border: solid black 1px; 
+    border: solid black 1px;
 }
+*/
+
+.title {
+    display: flex;
+}
+
+#contentcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+#stories {
+    display: flex;
+}
+
+#fakenews {
+    display: flex;
+}
+
+.story {
+    margin: 10px;
+}
+
+/*
+content, .maintitle {
+    margin: 20px;
+}*/
